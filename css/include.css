@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    line-height: 2em;
+}
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 15px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #111; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #111; 
+  }
+
+
+.container {
+    width: 85%;
+    margin:0 auto;
+}
+
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items:center;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a {
+    padding: 7px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+    transition: .5s;
+}
+
+nav img {
+    margin-left: 4em;
+}
+
+footer {
+    background-color: #333;
+    height: 32vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  footer ul{
+    display: flex;
+    padding-top: 2.5em;
+  }
+
+  footer ul li {
+      list-style: none;
+      margin:0px 15px;
+  }
+  
+  footer ul li .fab {
+      font-size: 30px;
+      line-height: 60px;
+      transition: .6s;
+      color:#000;
+  }
+  
+  footer ul li a {
+      display: block;
+      width: 55px;
+      height: 55px;
+      border-radius: 60%;
+      text-align: center;
+      transition: .6s;
+      box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+  }
+  
+  footer ul li a:hover {
+      transform: translate(0, -10px);
+  }
+  
+  footer ul li:nth-child(1) a {
+      background-color: #3b5999;
+      filter: grayscale(30%);
+  }
+
+  footer ul li:nth-child(2) a {
+      background-color: #55acee;
+      filter: grayscale(30%);
+  }
+
+  footer ul li:nth-child(3) a {
+      background-color: #e4405f;
+      filter: grayscale(30%);
+  }
+
+  footer ul li:nth-child(4) a {
+      background-color: #0077B5;
+      filter: grayscale(30%);
+  }
+  
+  footer p, footer h4 {
+      padding: 1.5em;
+      color: white;
+  }
+  footer h5 {
+    color: #fff;
+    margin-top: -1%;
+    margin-bottom: 1%;
+}
+  footer p > a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer hr {
+      width: 50%;
+      border:0.5px solid #fff;
+  }

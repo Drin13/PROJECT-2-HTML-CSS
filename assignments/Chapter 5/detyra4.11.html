@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Fig. 5.12: transitions.html -->
+<!-- Transitions in CSS3. -->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Transitions</title>
+    <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    <style type="text/css">
+        img {
+            margin: 80px;
+            -webkit-transition: -webkit-transform 4s;
+            -moz-transition: -moz-transform 4s;
+            -o-transition: -o-transform 4s;
+            transition: transform 4s;
+        }
+
+        img:hover {
+            -webkit-transform: rotate(360deg) scale(2, 2);
+            -moz-transform: rotate(360deg) scale(2, 2);
+            -o-transform: rotate(360deg) scale(2, 2);
+            transform: rotate(360deg) scale(2, 2);
+        }
+        .fa-arrow-circle-left{
+        font-size: 3em;
+        cursor: pointer;
+        color: #333;
+        margin: 0.5em;
+    }
+    </style>
+</head>
+
+<body>
+<i class="fas fa-arrow-circle-left" id="arrow"></i>
+
+    <img src="../images/jhtp.jpg" width="76" height alt="C++ How to Program book cover">
+<script src="../../js/back.js"></script>
+
+</body>
+
+</html>

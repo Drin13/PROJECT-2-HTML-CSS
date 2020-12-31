@@ -1,0 +1,175 @@
+header {
+    display: flex;
+}
+
+header img{
+    width: 27%;
+    display: block;
+}
+
+header h2 {
+    font-size: 5em;
+    line-height: 1em;
+    padding: 0.5em;
+    color: #fff;
+}
+
+header h3 {
+    font-size: 2.5em;
+    line-height: 1em;
+    padding: 1em;
+    color: #fff;
+}
+
+header h3 span{
+    color: #e55512;
+}
+
+header > div {
+    width: 50%;
+}
+
+.white-bg {
+    background-color: #000;
+}
+
+.black-bg {
+    background-color: #f3f3f3;
+}
+
+nav {
+    justify-content: space-around!important;
+    margin: 2em;
+}
+
+nav a {
+    color: #333!important;
+}
+
+nav a:hover { 
+    background-color: #000!important;
+    color: #fff!important;
+}
+
+.me {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    filter: grayscale(75%);
+}
+
+.about-me {
+    margin-top: 12%;
+    width: 80%;
+    margin: 12% auto 0% auto;
+}
+
+.about-me p {
+    padding: 2em;
+}
+
+.who-am-i, .bg-color-starting-career, .my-skills {
+    background-color: #f3f3f3;
+}
+
+.about-me h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.about-me h3 {
+    margin-top: 10%;
+    color: #fff;
+    -webkit-text-stroke: 2px black;
+    font-size: 70px;
+    text-shadow: 15px -25px 5px #333;
+}
+
+.starting-career {
+    width: 100%;
+    display: flex;
+    padding: 3em;
+}
+
+.starting-career p{
+    width: 80%;
+}
+
+.starting-career img {
+    background-color: #fff;
+}
+
+.starting-career img {
+    margin-top: -2em;
+}
+
+.my-skills {
+    padding-bottom: 5%;
+}
+
+.skills-in-programming {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.skills-in-programming > div {
+    width: 40%;
+    margin: 3px;
+}
+
+.skills {
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid #333;
+    color: #fff;
+}
+
+.skills h5 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.bootstrap-skills > div, .html-skills > div, .css-skills > div, .javascript-skills > div, .react-skills > div, .jquery-skills > div,
+ .wordpress-skills > div, .mysql-skills > div, .php-skills > div, .php-oop-skills > div{
+    width: 90%;
+    background-color: #e55512;
+    border-radius: 10px;
+}
+
+.html-skills > div, .css-skills > div {
+    width: 100%;
+}
+
+.javascript-skills > div {
+    width: 80%;
+}
+
+.react-skills > div {
+    width: 30%;
+}
+
+.jquery-skills > div {
+    width: 75%;
+}
+
+.wordpress-skills > div {
+    width: 90%;
+}
+
+.mysql-skills > div {
+    width: 50%;
+}
+
+.php-skills > div {
+    width: 50%;
+}
+
+.php-oop-skills > div {
+    width: 30%;
+}
+
+footer {
+    margin-top: 5%;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Fig. 4.3: embedded.html -->
+<!-- Embedded style sheet. -->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Embedded Style Sheet</title>
+    <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+
+
+    <!-- this begins the style sheet section -->
+    <style type="text/css">
+        em {
+            font-weight: bold;
+            color: black;
+        }
+
+        h1 {
+            font-family: tahoma, helvetica, sans-serif;
+        }
+
+        p {
+            font-size: 12pt;
+            font-family: arial, sans-serif;
+        }
+
+        .special {
+            color: purple;
+        }
+        
+        .fa-arrow-circle-left{
+        font-size: 3em;
+        cursor: pointer;
+        color: #333;
+        margin: 0.5em;
+    }
+    </style>
+</head>
+
+<body>
+    <i class="fas fa-arrow-circle-left" id="arrow"></i>
+
+    <!-- this attribute applies the special style class -->
+    <h1 class="special">Deitel & Associates, Inc.</h1>
+    <p>Deitel & Associates, Inc. is an authoring and
+        corporate training organization specializing in
+        programming languages, Internet and web technology,
+        iPhone and Android app development, and object
+        technology education.</p>
+    <h1>Clients</h1>
+    <p class="special"> The company's clients include many
+        <em>Fortune 1000 companies</em>, government agencies,
+        branches of the military and business organizations.
+    </p>
+    <script src="../../js/back.js"></script>
+</body>
+
+</html>

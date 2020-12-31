@@ -1,0 +1,99 @@
+
+header {
+    background-color: #333;
+}
+
+.Web-Design, .Web-Development {
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Web-Design article, .Web-Development article {
+    width: 50%;
+}
+/* 500px width, 700px height */
+.image-Web-Design, .image-Web-Development {
+    background-image: url(../images/v.jpg);
+    width: 30vw!important;
+    height: 50vh;
+    background-repeat: no-repeat;   
+    background-position: center;
+    border-radius: 30%;
+    box-shadow: 1px 1px 10px #333;
+}
+
+.image-Web-Design div, .image-Web-Development div{
+    width: 550px;
+    height: 150px;
+    background-color: #fff;
+    position: relative;
+    top: 30%;
+    left: 28%;
+    box-shadow: 1px 1px 10px #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-Web-Design div h2, .image-Web-Development div h2{
+    font-size: 30px;
+    padding: 50px;
+}
+
+.image-Web-Design div i, .image-Web-Development div i {
+    font-size: 4em;
+    color: #e55512;
+    float: right;
+    padding: 44px;
+}
+
+.textPart-Web-Design, .textPart-Web-Development {
+    align-self: center;
+    margin-top: 5em;
+    padding: 50px;
+}
+
+.textPart-Web-Design h3, .textPart-Web-Development h3, .contact-me h2 {
+    font-size: 35px;
+}
+
+.textPart-Web-Design a, .textPart-Web-Development a, .contact-me a {
+    padding: 15px 20px;
+    border-radius: 0px;
+    border: none;
+    color: #fff;
+    background-color: #e55512;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.image-Web-Development {
+    background-image: url(../images/u.jpg);
+    float: right;
+}
+
+.image-Web-Development div {
+    background-color: #333;
+    color: #fff;
+    left: -28%;
+}
+
+.image-Web-Development div h2 {
+    padding: 42px;
+}
+
+.contact-me {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.contact-me p {
+    width: 40%;
+}
