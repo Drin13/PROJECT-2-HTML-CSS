@@ -18,8 +18,8 @@
 
 <body>
 
-
-    <header>
+    <!-- header is didived into 2 main parts black-bg and white-bg -->
+    <header class="header">
         <div class="white-bg">
             <img src="images/logoo-removebg-preview.png" alt="" width="15%">
             <h2>Hello, <br>
@@ -32,7 +32,9 @@
         </div>
         <div class="black-bg">
             <nav>
-                <ul>
+                <input class="menu-btn" type="checkbox" id="menu-btn">
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="hobbies.html">Hobbies</a></li>
@@ -44,7 +46,9 @@
         </div>
     </header>
 
+    <!--  the photo in the middle of the header -->
     <img src="images/meeee.jpg" alt="" width="50%" class="me">
+
     <div class="container">
         <div class="about-me">
             <h2>About Me</h2>
@@ -72,13 +76,15 @@
                         but it's a marvel experience.
                         <br><br>
                         The start up is called <strong>D.A.R.K Pixels</strong>, each letter represent each of us, each
-                        letter is our first letter of the name.
+                        letter is our first letter of the name. <br><br>
+                        Our Website still didn't get finished but we working hard on it, its link is <a
+                            href="https://dark-pixels.com/" target="_blank">dark-pixels.com</a>
                     </p>
-                    <img src="images/darkpixels.png" alt="" width="25%">
+                    <img src="images/darkpixelss.png" alt="" width="25%">
                 </div>
 
             </div>
-
+            <!-- progress bar -->
             <div class="my-skills">
                 <h3>My Skills</h3>
                 <br>
@@ -115,7 +121,7 @@
 
                     <div class="react-skills skills">
                         <div>
-                            <h5>React - 30%</h5>
+                            <h5>React - 70%</h5>
                         </div>
                         <div></div>
                     </div>
@@ -136,21 +142,21 @@
 
                     <div class="mysql-skills skills">
                         <div>
-                            <h5>MySQL - 50%</h5>
+                            <h5>MySQL - 70%</h5>
                         </div>
                         <div></div>
                     </div>
 
                     <div class="php-skills skills">
                         <div>
-                            <h5>PHP - 50%</h5>
+                            <h5>PHP - 70%</h5>
                         </div>
                         <div></div>
                     </div>
 
                     <div class="php-oop-skills skills">
                         <div>
-                            <h5>PHP OOP - 30%</h5>
+                            <h5>PHP OOP - 70%</h5>
                         </div>
                         <div></div>
                     </div>
@@ -159,19 +165,22 @@
             </div>
         </div>
     </div>
-        <footer>
-            <ul>
-                <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-            <p><a href="#">HOME</a> &nbsp; &vert; &nbsp; <a href="#">ABOUT</a>&nbsp; &vert; &nbsp; <a href="#">HOBBIES</a>
-                &nbsp; &vert; &nbsp; <a href="#">ASSIGNMENTS</a> &nbsp; &vert; &nbsp; <a href="#">CONTACT</a></p>
-            <h5>Last time modified: 12/29/2020</h5>
-            <hr>
-            <h4>All rights reserved &copy; 2020-2021 / Drin Fejzullahu</h4>
-        </footer>
+
+    <!-- footer -->
+
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <p><a href="#">HOME</a> &nbsp; &vert; &nbsp; <a href="#">ABOUT</a>&nbsp; &vert; &nbsp; <a href="#">HOBBIES</a>
+            &nbsp; &vert; &nbsp; <a href="#">ASSIGNMENTS</a> &nbsp; &vert; &nbsp; <a href="#">CONTACT</a></p>
+        <h5>Last time modified: 12/29/2020</h5>
+        <hr>
+        <h4>All rights reserved &copy; 2020-2021 / Drin Fejzullahu</h4>
+    </footer>
 </body>
 
 </html>

@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignments | Portfolio</title>
-    <link rel="stylesheet" href="css/assignments.css">
     <link rel="stylesheet" href="css/include.css">
+    <link rel="stylesheet" href="css/assignments.css">
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
@@ -19,11 +19,13 @@
 <body>
 
 
-    <header>
+    <header class="header">
         <div class="container">
             <nav>
-                <img src="images/logoo-removebg-preview.png" alt="" width="15%">
-                <ul>
+                <img src="images/logoo-removebg-preview.png" alt="" width="15%" class="logo">
+                <input class="menu-btn" type="checkbox" id="menu-btn">
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="hobbies.html">Hobbies</a></li>
@@ -31,9 +33,6 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <h2>ASSIGNMENTS</h2>
-
-
         </div>
     </header>
     <div class="container bg-color-container">
@@ -44,8 +43,7 @@
             <br>
             Right below are assignments grouped in chapters, each chapter has its assignments.
         </p>
-
-        <!-- <h3 id="openAssignments">Open Assignments</h3> -->
+        <!-- I have divided Chapters, not include them all in one place -->
         <div id="assignments">
             <section class="assignments">
 
@@ -81,16 +79,27 @@
                     <h3>Chapter 9</h3>
                 </a>
 
-                <a href="chapters/chapter_10.html">
-                    <h3>Chapter 10</h3>
-                </a>
             </section>
+            <!-- sidebar -->
+            <div class="sidebar">
+                <h3>Twitter</h3>
+                <p><a href="https://twitter.com/" target="_blank">@Donald J. Trump</a> <br>
+                    Sorry losers and haters, but my I.Q. is one of the highest - and you all know it! Please don't feelo
+                    so stupid or insecure, it's not your fault.</p>
+            </div>
+        </div>
+        <div class="sidebar-bottom">
+            <h3>Twitter</h3>
+            <p><a href="https://twitter.com/" target="_blank">@Donald J. Trump</a> <br>
+                Sorry losers and haters, but my I.Q. is one of the highest - and you all know it! Please don't feelo so
+                stupid or insecure, it's not your fault.</p>
         </div>
 
         <h3 class="my-projects">My Projects</h3>
         <p>As a Web Developer, projects are part of life. Projects were from clients worldwide.<br>
             I've done many Projects, some of them are:</p>
         <br>
+        <!-- table -->
         <table border="1">
             <tr>
                 <th rowspan="8">Projects</th>
@@ -120,7 +129,7 @@
 
 
     </div>
-
+    <!-- footer -->
     <footer>
         <ul>
             <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>

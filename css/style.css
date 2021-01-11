@@ -1,7 +1,34 @@
 
 header {
-    background-color: #333;
+    background-image: url(../images/about.jpg);
+    background-position: top!important;
 }
+
+/* Introduction to myself */
+.who-am-i {
+    margin-top: 5em;
+    display: flex;
+}
+
+.who-am-i article {
+    padding: 3em;
+}
+
+.who-am-i img {
+    border-radius: 30%;
+    box-shadow: 1px 1px 10px #333;
+}
+
+.who-am-i .introduction {
+    align-self: center;
+    background-color: #eee;
+}
+
+.who-am-i .introduction h3 {
+    font-size: 25px;
+}
+
+/* Web Design and Web Development Section */
 
 .Web-Design, .Web-Development {
     margin-top: 15%;
@@ -86,6 +113,8 @@ header {
     padding: 42px;
 }
 
+/* contact me section */
+
 .contact-me {
     text-align: center;
     display: flex;
@@ -96,4 +125,128 @@ header {
 
 .contact-me p {
     width: 40%;
+}
+
+/* responsive */
+
+@media  (max-width:1500px) {
+    .Web-Design, .Web-Development  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Web-Development {
+        flex-direction: column-reverse; 
+
+    }
+
+    .image-Web-Development div{
+        position: relative;
+        top: 30%;
+        left: 28%;
+    }
+
+    .Web-Design > article, .Web-Development > article {
+        width: 100%;
+    }
+    .image-Web-Design, .image-Web-Development {
+        width: 50%!important;
+        margin: auto;
+    }   
+}
+
+@media  (max-width:981px) {
+    .contact-me p {
+        width: 60%;
+    }
+}
+
+@media (max-width:950px) {
+    .image-Web-Design div, .image-Web-Development div {
+        width: 500px;
+    }
+    .image-Web-Development div i, .image-Web-Design div h2 {
+        padding: 0;
+        padding-left: 5px;
+    }
+    .image-Web-Design, .image-Web-Development {
+        width: 80%!important;
+    }   
+}
+
+@media (max-width:930px) {
+    .who-am-i {
+        display: flex;
+        flex-direction: column;
+    }
+    .who-am-i img {
+        width: 50%;
+    }
+}
+
+@media (max-width:800px) {
+    .image-Web-Design div, .image-Web-Development div {
+        width: 400px;
+    }
+}
+
+@media (max-width:600px) {
+    .who-am-i img {
+        width: 100%;
+    }
+}
+
+@media (max-width:640px) {
+    .image-Web-Design div, .image-Web-Development div {
+        width: 350px;
+    }
+    
+    .textPart-Web-Design, .textPart-Web-Development, .contact-me h2 {
+        text-align: center;
+        padding: 35px;
+    }
+    
+}
+
+@media (max-width:570px) {
+    .image-Web-Design, .image-Web-Development {
+        width: 100%!important;
+    }
+
+    .image-Web-Design div, .image-Web-Development div {
+        width: 400px;
+    } 
+
+    .image-Web-Design div h2, .image-Web-Development div h2 {
+        font-size: 20px;
+    }
+
+    .image-Web-Development div, .image-Web-Design div {
+        position: relative;
+        top: 30%;
+        left: 0;
+        margin: auto;
+    }
+
+    .image-Web-Design div i, .image-Web-Development div i {
+        font-size: 3em;
+    }
+}
+
+@media (max-width:450px) {
+    .image-Web-Design div, .image-Web-Development div {
+        width: 300px;
+    } 
+}
+
+@media (max-width:400px) {
+    .who-am-i .introduction {
+        padding: 5px;
+    }
+}
+
+@media (max-width:320px) {
+    .image-Web-Design div, .image-Web-Development div {
+        width: 290px;
+    } 
 }
